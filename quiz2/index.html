@@ -162,8 +162,9 @@
       padding: 0;
       margin: 0 0 20px 0;
       min-width: 0;
-      /* Ensure proper block formatting context */
+      /* Ensure proper block formatting context and width constraint */
       display: block;
+      width: 100%;
     }
 
     legend {
@@ -182,6 +183,7 @@
     .feedback {
       clear: both;
       width: 100%;
+      max-width: 100%;
       display: block;
     }
 
